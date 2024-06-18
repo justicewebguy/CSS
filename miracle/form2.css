@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+}
+
+.form-container{
+    background-color: aqua;
+   height: 110vh;
+   padding: 100px 0;
+}
+
+form{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto ;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.form-group{
+    margin: 15PX;
+}
+
+Button{
+    background-color: aqua;
+    width: 100%;
+    padding: 10px 12px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+   border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* margin-left: 80px; */
+}
+button:hover{
+background-color: blue;
+}
+input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #0bd2f1;
+}
+input:focus{
+    outline: 1px solid rgb(0, 229, 255);
+}

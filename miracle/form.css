@@ -1,0 +1,72 @@
+/*Global Reset */
+*{
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+}
+
+.form-container{
+    background-color: blue;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+form{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus{
+    outline: 1px solid blue;
+}
+
+#checkbox-input{
+    width: auto;
+    margin-right: 5px;
+}
+
+button{
+    background-color: blue;
+    width: 100%;
+    padding: 10px 12px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgb(5, 5, 113);
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h1::after{
+   content: "";
+   display: block;
+   height: 2px;
+   width: 30px;
+   background-color: blue;
+}

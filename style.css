@@ -1,0 +1,38 @@
+/*
+      CSS:
+        Lecture 1:
+        a. How to use css with html/How to apply css to html
+            1.Using Inline Styling
+            2.Using Internal Styling
+            3.Using External Styling
+        b. Css declaration block
+            selector{
+                property1:value1;
+                property2:value2;
+                property3:value3;
+                propertyn:valuen;
+            }
+        c. How to target/select HTML element/tag using css
+            1. Tagname
+            2. Id
+            3. Class
+*/
+h2{
+    background-color: rgba(228, 108, 16, 0.6);
+    height: 300px;
+}
+
+/*Targetting by tagname */
+span{
+    background-color: red;
+}
+
+/*Targetting by ID */
+#my_span_2{
+    background-color: blue;
+}
+
+/*Targetting by class */
+.same_span{
+    background-color: purple;
+}

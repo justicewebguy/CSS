@@ -1,0 +1,36 @@
+/* LECTURE 2: CSS BOX MODEL
+    Box Model Properties:
+        1. Height
+        2. Width
+        3. Padding
+        4. Margin
+        5. Border
+        6. Border Radius
+*/
+
+.box--------{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    padding: 30px; /*Applying padding using short hand version */
+    margin: 20px; /*Applying margin using short hand version */
+    border: 10px solid green; /* Applying border using short hand version */
+    border-radius: 20px; /* Applying border-radius using short hand version */
+} 
+
+.box{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
+    border-top-width: 30px;
+    border-bottom-color: blue;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+}
